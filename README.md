@@ -38,6 +38,34 @@ Deployed with Heroku.
   <img src="./asset/reference/6.png" width="48%">
 </div>
 
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./asset/reference/7.png" width="48%">
+  <img src="./asset/reference/8.png" width="48%">
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./asset/reference/7.png" width="48%">
+  <img src="./asset/reference/8.png" width="48%">
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./asset/reference/9.png" width="48%">
+  <img src="./asset/reference/10.png" width="48%">
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./asset/reference/11.png" width="48%">
+  <img src="./asset/reference/12.png" width="48%">
+</div>
+
 ## Usage
 
 For local debugging.
