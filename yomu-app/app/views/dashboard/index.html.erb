@@ -1,0 +1,38 @@
+<h1>Yomu - The Competitive Reading App</h1>
+
+<div class="stats-container">
+  <div class="stat-card">
+    <h3>Total Pages Read</h3>
+    <p class="stat-number"><%= current_user.total_pages_read %></p>
+  </div>
+
+  <div class="stat-card">
+    <h3>Books Completed</h3>
+    <p class="stat-number"><%= current_user.books_completed %></p>
+  </div>
+
+  <div class="stat-card">
+    <h3>Reading Level</h3>
+    <p class="stat-number"><%= current_user.reading_level %></p>
+  </div>
+</div>
+
+<div class="action-buttons">
+  <%= link_to "Log Reading Session", new_reading_session_path, class: "btn btn-primary" %>
+  <%= link_to "View Leaderboard", leaderboard_path, class: "btn btn-secondary" %>
+  <%= link_to "My Profile", profile_path, class: "btn btn-info" %>
+</div>
+
+<h2>Recent Activity</h2>
+<div class="recent-activity">
+  <% current_user.reading_sessions.order(date: :desc).limit(5).each do |session| %>
+    <div class="activity-card">
+      <p><strong><%= session.book.title %></strong></p>
+      <p>Pages read: <%= session.pages_read %></p>
+      <p>Date: <%= session.date.strftime("%B %d, %Y") %></p>
+    </div>
+  <% end %>
+</div>
+
+<p>Made with ❤️ by <a href="https://github.com/gongahkia">Gabriel Ong</a>.</p>
+<p>Source code <a href="https://github.com/gongahkia/yomu">here</a>.</p>

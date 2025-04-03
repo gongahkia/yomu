@@ -1,0 +1,26 @@
+<h1>Log Your Reading</h1>
+
+<%= form_with(model: @reading_session, local: true) do |form| %>
+  <div class="field">
+    <%= form.label :book_id, "Select Book" %>
+    <%= form.collection_select :book_id, Book.all, :id, :title, prompt: "Choose a book" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :pages_read, "Pages Read Today" %>
+    <%= form.number_field :pages_read, min: 1 %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Log Reading" %>
+  </div>
+<% end %>
+
+<div class="verification-options">
+  <h3>Verification Options</h3>
+  <p>After submitting, you'll need to verify your reading by:</p>
+  <ul>
+    <li>Answering a trivia question about the content</li>
+    <li>Or uploading a photo of the page you're on</li>
+  </ul>
+</div>

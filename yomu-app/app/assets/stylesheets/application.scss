@@ -1,0 +1,58 @@
+@import "bootstrap";
+
+.stat-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.action-buttons {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.activity-card {
+  background-color: white;
+  border-left: 4px solid #007bff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.leaderboard-table tr {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.leaderboard-table td, .leaderboard-table th {
+  padding: 15px;
+}
+
+.leaderboard-table tr:nth-child(1) {
+  background-color: #ffd700;
+}
+
+.leaderboard-table tr:nth-child(2) {
+  background-color: #c0c0c0;
+}
+
+.leaderboard-table tr:nth-child(3) {
+  background-color: #cd7f32;
+}
