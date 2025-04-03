@@ -3,7 +3,9 @@
 
 # `Yomu` 🐦‍⬛
 
-...
+`Yomu` is a Full Stack Web App that gamifies reading and surrounds you with other motivated readers.
+
+[Birds of a feather flock together](https://dictionary.cambridge.org/dictionary/english/birds-of-a-feather-flock-together), so **read together**, like a [murder of crows](https://www.ornitheology.com/post/murder-of-crows-collective-bird-names).
 
 <div align="center">
   <img src="./asset/reference/1.png" width="80%">
@@ -19,12 +21,15 @@ Deployed with Heroku.
 
 ## Screenshot
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="./asset/reference/1.png" width="48%">
-  <img src="./asset/reference/2.png" width="48%">
+### Dashboard
+
+<div style="display: flex; justify-content: center;">
+  <img src="./asset/reference/2.png" width="80%">
 </div>
 
 <br>
+
+### Notifications
 
 <div style="display: flex; justify-content: space-between;">
   <img src="./asset/reference/3.png" width="48%">
@@ -40,29 +45,33 @@ Deployed with Heroku.
 
 <br>
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="./asset/reference/7.png" width="48%">
-  <img src="./asset/reference/8.png" width="48%">
+### Community Leaderboard
+
+<div style="display: flex; justify-content: center;">
+  <img src="./asset/reference/7.png" width="80%">
 </div>
 
 <br>
 
+### Upload Reads and Book Review
+
 <div style="display: flex; justify-content: space-between;">
-  <img src="./asset/reference/7.png" width="48%">
   <img src="./asset/reference/8.png" width="48%">
-</div>
-
-<br>
-
-<div style="display: flex; justify-content: space-between;">
   <img src="./asset/reference/9.png" width="48%">
+</div>
+
+<br>
+
+### Profile Management
+
+<div style="display: flex; justify-content: space-between;">
   <img src="./asset/reference/10.png" width="48%">
+  <img src="./asset/reference/11.png" width="48%">
 </div>
 
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="./asset/reference/11.png" width="48%">
   <img src="./asset/reference/12.png" width="48%">
 </div>
 
